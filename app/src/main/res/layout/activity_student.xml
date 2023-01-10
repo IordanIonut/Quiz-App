@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ScrollView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" >
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:id="@+id/list_student_id"
+        tools:context=".ListCourseActivity">
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="20sp"
+              android:textAlignment="center"
+              android:hint="@string/asdadsaasda_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_aaaaaaaaaaaaaaaaaaaaad"
+              android:id="@+id/title_course"
+    />
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_a"
+            android:overScrollMode="always"
+            android:layout_below="@+id/title_course"
+            android:layout_marginTop="25dp"
+    />
+    <TextView android:layout_width="match_parent"
+              android:layout_height="2sp"
+              android:textSize="20sp"
+              android:layout_marginTop="25dp"
+              android:background="@color/colorPrimaryDark"
+              android:textAlignment="center"
+              android:id="@+id/line"
+              android:layout_below="@+id/list_a"
+    />
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_b"
+            android:overScrollMode="always"
+            android:layout_below="@+id/line"
+            android:layout_marginTop="25dp"
+    />
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="swipe_left_for_register">Swipe Left for Register</string>
+    <string name="login">Login</string>
+    <string name="swipe">Swipe Right for Home Page</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">Hello welcome. \nCommon to resolve a quiz.</string>
+    <string name="swipe_right_for_login">Swipe Right for Login</string>
+    <string name="register">Register</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+    <string name="asdadsaasda_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa_aaaaaaaaaaaaaaaaaaaaad">asdadsaasda
+        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaad
+    </string>
+    <string name="score_text">asdasdadads</string>
+    <string name="intrebare_text">asdaaaaaaaaaa
+        aaaaaaaaaaaaaaaaaaaaa
+        aaaaaaaaaaaaaaaaaaaa
+        aaaaaaaaaaaaaaaaaaaaa
+        aaaaaaaaaaaaaaaaaa
+        aaaaaaaaaaaaaaaaaaaa
+        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+    </string>
+    <string name="raspuns1">asd</string>
+    <string name="raspuns2"/>
+    <string name="raspuns3"/>
+    <string name="raspuns4"/>
+    <string name="title_activity_score">ScoreActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

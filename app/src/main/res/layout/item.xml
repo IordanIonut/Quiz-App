@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:padding="15dp"
+        android:layout_height="wrap_content">
+    <TextView
+            android:id="@+id/describe_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/tag"
+            android:textAlignment="center"
+            android:textSize="17sp"
+            android:fontFamily="sans-serif"
+            tools:ignore="MissingConstraints"
+            />
+    <Button
+            android:layout_width="55dp"
+            android:textSize="20dp"
+            android:background="@android:drawable/ic_menu_send"
+            android:layout_height="55dp"
+            android:id="@+id/btn_start_quiz"
+            tools:ignore="MissingConstraints"
+            android:fontFamily="sans-serif-medium"
+            android:layout_below="@id/describe_course"
+            android:layout_centerInParent="true"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_below="@+id/btn_start_quiz"
+            android:layout_marginTop="10dp"
+            android:id="@+id/id_view_course"
+            android:layout_marginLeft="50dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginRight="50dp"
+    />
+</RelativeLayout>

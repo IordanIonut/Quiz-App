@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ScrollView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" >
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/home_id"
+        android:overScrollMode="always"
+        tools:context=".HomeActivity">
+    <TextView
+            android:layout_width="match_parent"
+            android:hint="WELCOME name"
+            android:textAlignment="center"
+            android:id="@+id/name_user"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="21dp"
+            android:layout_height="wrap_content"
+    />
+    <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/log_out"
+            android:background="@android:drawable/ic_menu_close_clear_cancel"
+            android:layout_below="@+id/name_user"
+            android:layout_alignParentRight="true"
+            android:onClick="logOut"
+            android:layout_marginTop="-40dp"
+    />
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_course"
+            android:layout_below="@+id/log_out"
+            android:layout_marginTop="15dp"
+    />
+</RelativeLayout>
+</ScrollView>

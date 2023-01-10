@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="always"
+        tools:context=".FinishActivity">
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/score1"
+              android:textColor="@color/colorPrimaryDark"
+              android:textSize="30dp"
+              android:textAlignment="center"
+              android:layout_marginTop="300dp"
+              android:text="@string/score_text"
+
+              android:layout_centerInParent="true"/>
+    <ImageView
+            android:layout_marginTop="30dp"
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/image"
+    />
+</RelativeLayout>
