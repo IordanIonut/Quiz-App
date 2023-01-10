@@ -1,1 +1,1 @@
-# Prima aplicație din Android Studio cu Sqlite
+# First app in Android Studio with Sqlite
